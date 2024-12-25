@@ -1,0 +1,761 @@
+@media screen and (max-width:768px) {
+    
+
+h4 {
+
+    font-family: hcomic;
+    font-size: 7vw;
+    letter-spacing: 0.1vw;
+    font-weight: 900;
+    -webkit-text-stroke: white 0.1px;
+
+}
+
+
+h6 {
+
+    font-size: 4vw;
+    letter-spacing: 1px;
+    font-family: hcomic;
+
+}
+
+
+p {
+    font-family: mcomic;
+    font-size: 3vw;
+}
+
+
+
+body {
+
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: mcomic;
+
+    background: #ffc63b;
+
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+    width: 100vw;
+
+}
+
+.logo-img {
+
+    height: 7vw;
+
+}
+
+header div {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+
+}
+
+
+header div img {
+
+    height: 4vw;
+    cursor: pointer;
+
+}
+
+header div img:hover {
+    scale: 1.1;
+}
+
+
+.sect0 {
+
+    background: url(images/s0\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 2vw;
+
+}
+
+.s0hdng {
+
+    width: 50vw;
+
+}
+
+.s0imgs {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    width: 80%;
+    margin: 2% auto;
+
+}
+
+.s0imgs img {
+
+    width: 20%;
+
+}
+
+
+
+
+
+/* .............................................TEXT SLIDER 1................................... */
+
+.t-slider1 {
+    border-top: 0.3vw solid #000000;
+
+    border-bottom: 0.3vw solid #000000;
+
+    margin: 5% 0 0% 0;
+
+    rotate: 5deg;
+}
+
+.text-container1 {
+    overflow-x: hidden;
+    /* Hide overflow to create a sliding effect */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    width: 100vw;
+    /* Set container width */
+    border: solid black 1px 0 1px 0;
+    background-color: #F8450B;
+
+}
+
+/* Animated text */
+.animated-text1 {
+    display: inline-block;
+    font-size: 3vw;
+    color: black;
+    letter-spacing: 0.3vw;
+    animation: slide-left 30s linear infinite;
+    padding: 1%;
+
+    font-family: hcomic;
+}
+
+
+
+/* .............................................TEXT SLIDER 2................................... */
+
+.t-slider2 {
+    border-top: 0.3vw solid #000000;
+
+    border-bottom: 0.3vw solid #000000;
+
+    rotate: -5deg;
+
+    margin: -7% 0 0 0;
+}
+
+.text-container2 {
+    overflow-x: hidden;
+    /* Hide overflow to create a sliding effect */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    width: 100vw;
+    /* Set container width */
+    border: solid black 1px 0 1px 0;
+    background-color: #FFD87A;
+
+}
+
+/* Animated text */
+.animated-text2 {
+    display: inline-block;
+    font-size: 3vw;
+    color: black;
+    letter-spacing: 0.3vw;
+    animation: slide-right 30s linear infinite;
+    padding: 1%;
+
+    font-family: hcomic;
+}
+
+
+
+.sect1 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+
+    padding: 10%;
+
+}
+
+.s1d1 {
+
+    background: #FFCF5A;
+    border-radius: 2vw;
+
+
+
+}
+
+.s1d1 div {
+
+    background: url(images/about\ us\ crtn.png);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    padding: 7% 5% 15% 5%;
+
+    gap: 3vw;
+
+    text-align: center;
+
+}
+
+.s1d1 div img {
+
+    height: 7vw;
+
+}
+
+.s1d1 div img:hover {
+
+    scale: 1.1;
+
+}
+
+
+
+.sect2 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 5% 10%;
+    gap: 5vw;
+
+}
+
+
+.tkn-hdng {
+
+    width: 60vw;
+
+}
+
+.s2md1 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 2vw;
+
+    width: 100%;
+
+}
+
+.s2md1 div {
+
+    padding: 5%;
+    margin: 2% 0;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: 1vw;
+
+    border: 0.2vw solid white;
+
+    border-radius: 2vw;
+
+    width: 90%;
+    height: auto;
+
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.s2md1 div img{
+    width:7vw;
+}
+
+
+
+.s2md1 div:nth-child(1),
+.s2md1 div:nth-child(3) {
+    background: linear-gradient(to bottom, #FE440B 0%, #FEAB0B 100%);
+}
+
+.s2md1 div:nth-child(2),
+.s2md1 div:nth-child(4) {
+    background: linear-gradient(to bottom, #FEAB0B 0%, #FE440B 100%);
+}
+
+
+.sect3 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+
+    width: 100vw;
+
+    padding: 5%;
+
+
+}
+
+.rdmp-hdng {
+
+    width: 40vw;
+
+}
+
+.s3md1 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #ffd776;
+
+    width: 100%;
+
+    border-radius: 5vw;
+
+    padding: 5%;
+
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.s3md2 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+    width: 100%;
+
+    background: white;
+    margin: 2vw 2vw;
+    padding: 2% 1%;
+
+    border-radius: 2vw;
+
+    outline: solid 0.3vw white;
+    /* Outline style with 1vw thickness */
+    outline-offset: 2vw;
+
+
+
+}
+
+
+.s3md2 div {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height: auto;
+
+    background: #FFBD5A;
+    padding:  5%;
+
+    border-radius: 2vw;
+
+}
+
+.s3md2 div img {
+
+    width: 14vw;
+
+}
+
+
+.s3md2 div ul {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.sect4 {
+
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+
+    position: relative;
+    /* z-index: 1; */
+
+    justify-content: center ;
+    align-items: center;
+    width: 100vw;
+    overflow-x: hidden;
+
+    margin: 0 0 -5% 0 ;
+
+
+    background: linear-gradient(to bottom, #FFC63B 0%, #FF8D3B 100%);
+
+}
+
+.lstcrtn {
+
+    width: 100vw;
+
+    z-index: 3;
+
+}
+
+.s4md1 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 3vw;
+    width: 100%;
+
+}
+
+
+.jnus {
+
+    height: 13vw;
+
+}
+
+.s4md1 p {
+
+    padding: 2%;
+    background: #FFDA7F;
+    border: 0.2vw solid black;
+    margin: 0 2% ;
+
+}
+
+.s4md1 div {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+}
+
+.s4md1 div img {
+
+    height: 8vw;
+
+}
+
+
+.s4md1 div img:hover {
+
+    scale: 1.1;
+
+}
+
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5vw;
+
+    position: relative;
+
+    /* z-index: 2; */
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+
+    padding: 8% 3% 2% 3% ;
+
+    margin: 0 0 0 0;
+
+    background: #ffc63b;
+
+    /* margin: -5% 0 0 0 ; */
+
+}
+
+
+.ftrlgo {
+
+    height: 14vw;
+
+}
+
+footer div {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 1vw;
+
+}
+
+
+footer div img{
+
+    height: 8vw;
+
+}
+
+footer div img:hover{
+
+    scale: 1.1;
+
+}
+
+
+
+
+
+.scrl{
+
+    top: 3%;
+    left: 70%;
+    width: 15vw;
+
+}
+
+
+.cld1{
+
+    top: 2%;
+    left: 0%;
+    width: 10vw;
+
+}
+
+
+
+.cld2{
+
+    top: 5%;
+    left: 93%;
+    width: 7vw;
+
+}
+
+
+.cld3{
+
+    top: 25%;
+    left: 0%;
+    width: 10vw;
+
+}
+
+
+.cld4{
+
+    top: 83%;
+    left: 85%;
+    width: 15vw;
+
+}
+
+
+.cld5{
+
+    top: 47%;
+    left: 80%;
+    width: 10vw;
+
+}
+
+
+
+
+.cld6{
+
+    top: 79%;
+    left: 0%;
+    width: 5vw;
+
+}
+
+
+.bndl{
+
+    top: 13%;
+    left: 7%;
+    height: 13vw;
+
+}
+
+
+
+.bndr{
+
+    top: 13%;
+    left: 80%;
+    height: 13vw;
+
+}
+
+
+.str1{
+
+    top: 9%;
+    left: 2%;
+    width: 2vw;
+
+}
+
+
+.str2{
+
+    top: 10%;
+    left: 80%;
+    width: 2vw;
+
+}
+
+
+.hrt1{
+
+    top: 10%;
+    left: 20%;
+    width: 3vw;
+
+}
+
+
+.hrt2{
+
+    top: 8%;
+    left: 95%;
+    width: 3vw;
+    rotate: 90deg;
+
+}
+
+
+
+.hrt3{
+
+    top: 4%;
+    left: 3%;
+    width: 3vw;
+
+}
+
+.tndrl{
+
+    top: 5%;
+    left: 10%;
+    width: 6vw;
+
+}
+
+.tndr2{
+
+    top: 4%;
+    left: 87%;
+    width: 6vw;
+
+}
+
+}
+
+
+
+
+

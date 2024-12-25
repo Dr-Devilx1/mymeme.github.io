@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase Section Design</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9c74f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 20px;
+            max-width: 800px;
+            width: 90%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #f77f00;
+            border-radius: 15px;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .card ul li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/50" alt="Icon 1">
+                <h3>PHASE 01</h3>
+                <ul>
+                    <li>Launch on ERC20</li>
+                    <li>Community Growth</li>
+                    <li>Website Release</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/50" alt="Icon 2">
+                <h3>PHASE 02</h3>
+                <ul>
+                    <li>Telegram & Twitter</li>
+                    <li>Marketing</li>
+                    <li>Custom Memes</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/50" alt="Icon 3">
+                <h3>PHASE 03</h3>
+                <ul>
+                    <li>CMC & CG Listing</li>
+                    <li>Further Social Media Marketing</li>
+                    <li>Medium Release</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/50" alt="Icon 4">
+                <h3>PHASE 04</h3>
+                <ul>
+                    <li>CEX Listings</li>
+                    <li>Partnerships</li>
+                    <li>Going Viral</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
